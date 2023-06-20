@@ -3,28 +3,219 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Cadastro</title>
+    <title>Site CSS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Formulário de cadastro</h1>
+        <div class="container">
+
+            <h1>Meu portal de notícias</h1>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#Esportes" title="Ir para seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#Economia" title="Ir para seção de Economia">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#Tecnologia" title="Ir para seção de tecnologia">Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#Moda" title="Ir para seção de moda">Moda</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
     </header>
-    <section>
-        <form>
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome">
-            <br><br>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
-            <br><br>
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" id="senha">
-            <br><br>
-            <button type="submit">Cadastrar</button>
-        </form>
+
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2015/5/135669/original/futebol.jpg"
+                        alt="Jogo de fultebol">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 23:16</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://4.bp.blogspot.com/-XrX0LPDjkSA/VhMlouEYGhI/AAAAAAAAADs/xWOpA9KLcsQ/s1600/Brasil-vs-Rusia-voleibol-040812.jpg"
+                        alt="Jogo de Vôlei">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 23:16</time>
+                    </header>
+                    <h3>Grande clássico na manhã de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://www.iguaimix.com/v3/wp-content/uploads/2019/09/Mundo-de-Basquete.jpg"
+                        alt="Jogo de Basquete">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 23:16</time>
+                    </header>
+                    <h3>Grande clássico na tarde de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://i.pinimg.com/originals/b1/25/89/b1258914ff9593e674caebfd60a6a58f.jpg"
+                        alt="Real Brasileiro">
+                    <header>
+                        <time class="creation-date">17/062023 às 21:59</time>
+                    </header>
+                    <h3>Moeda brasileira recebe aumento em relação ao dólar</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://investificar.com.br/wp-content/uploads/2020/04/image-3.png"
+                        alt="Barril de petróleo">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 21:59</time>
+                    </header>
+                    <h3>Barril de petróleo no Brasil, recebe aumento</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://www.folhadoprogresso.com.br/wp-content/uploads/2023/06/naom_5939528713ecf.jpg"
+                        alt="Agronegócio">
+                    <header>
+                        <time class="creation-date">17/062023 às 21:59</time>
+                    </header>
+                    <h3>Agronegócio do Brasil se iguala ao pib da Argentina</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="Tecnologia">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://www.cut.org.br/img/cache/ogimage/system/uploads/news/e975f7cbc4c8b62e2428385390eed9d0/cover/avanco-tecnologico.jpg"
+                        alt="Avanço tecnológico">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 22:11</time>
+                    </header>
+                    <h3>Avanço tecnológico no Brasil</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="http://4.bp.blogspot.com/_xL2DE4YzlhI/S_w_Ow1iz0I/AAAAAAAAAA0/ZJYjhCUOGD4/s1600/computadora-vieja.jpg"
+                        alt="Avanço tecnológico">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 22:11</time>
+                    </header>
+                    <h3>Computador Antigo</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://hypescience.com/wp-content/uploads/2020/12/comoutador-quantico.jpg"
+                        alt="Computador Quântico">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 22:11</time>
+                    </header>
+                    <h3>Computador Quântico</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="Animais">
+        <div class="container">
+            <h2>Mundo animal</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://segredosdomundo.r7.com/wp-content/uploads/2020/06/elefante-principais-habitos-caracteristicas-e-especies-vivas-1.jpg"
+                        alt="Elefante">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 22:16</time>
+                    </header>
+                    <h3>Elefantes</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Suricata_loro_parque.jpg"
+                        alt="Suricato">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 22:16</time>
+                    </header>
+                    <h3>Suricato</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://www.mundoecologia.com.br/wp-content/gallery/javali-4/Javali-6.jpg" alt="Javali">
+                    <header>
+                        <time class="creation-date">17/06/2023 às 22:16</time>
+                    </header>
+                    <h3>Javali</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsa officia, enim eligendi id
+                        exercitationem iusto ut architecto vitae sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
 </body>
 
